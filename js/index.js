@@ -1,9 +1,23 @@
-function ul(index) {
-    console.log('click!' + index)
+const navSlide = () => {
+    const burger = document.querySelector(".burger");
+    const nav = document.querySelector(".nav-links");
+    const navLinks = document.querySelectorAll('.nav-links li');
 
-    var underlines = document.querySelectorAll(".underline");
-
-    for (var i = 0; i < underlines.length; i++) {
-        underlines[i].style.transform = 'translate3d(' + index * 100 + '%,0,0)';
-    }
+    burger.addEventListener("click", () => {
+        //toggle Nav
+        nav.classList.toggle("nav-active");
+        //animated Links
+        navLinks.forEach((link, index) => {
+            if(link.style.animation) {
+                link.style.animation = ``;
+            } else {
+                link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.5}s`;
+            }
+        });
+        //burger Animation
+        burger.classList.toggle("toggle");
+    })
 }
+
+
+navSlide();
