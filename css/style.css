@@ -151,15 +151,127 @@ img{
     font-weight: normal;
     font-size: 20px;
     line-height: 35px;
-
     letter-spacing: 0.02em;
-
     color: #797979;
 }
-.second-content-part h4{
+
+.sec-desc p{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    align-items: center;
+    letter-spacing: 0.05em;
+
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.sec-desc h4{
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Asap', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.4em;
+
+    color: rgba(153, 153, 153, 0.4);
 
 }
 
-.second-content-part img{
+.sec-desc {
+    padding-top: 60px;
+    margin-left: 50%;
+}
+
+.sec-list-item1 {
+    position: relative;
+    padding-top: 60px;
+    width: 566px;
+}
+
+.sec-list-item1 img{
     width: 500px;
+    right: 120%;
+    position: absolute;
+}
+
+.sec-list-item2 {
+    position: relative;
+    padding-top: 200px;
+    width: 566px;
+    right: 650px;
+}
+
+.sec-list-item2 img{
+    padding-top: 100px;
+    width: 500px;
+    left: 120%;
+    position: absolute;
+}
+
+.sec-list-item3 {
+    position: relative;
+    padding-top: 200px;
+    width: 566px;
+}
+
+.sec-list-item3 img{
+    padding-top: 130px;
+    width: 500px;
+    right: 120%;
+    position: absolute;
+}
+
+.sec-list-item4 {
+    padding-top: 250px;
+    position: relative;
+    width: 566px;
+    right: 600px;
+    padding-bottom: 100px;
+}
+
+.sec-list-item4 img{
+    padding-top: 100px;
+    width: 500px;
+    left: 120%;
+    position: absolute;
+}
+
+.pre-footer img{
+    display: none;
+}
+
+footer {
+    width: 100%;
+    padding: 50px;
+    background-color: #1f1f1f;
+}
+
+footer h2 {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+}
+
+footer h3 {
+    padding-top: 20px;
+    justify-content: center;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: rgba(109, 109, 109, 0.2);
 }
