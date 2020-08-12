@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'PT Mono';
+    url('./font/PTMono-Regular.tff')  format('truetype'), /* Safari, Android, iOS */
+}
 *{
     margin: 0px;
     padding: 0px;
@@ -117,9 +121,45 @@ nav {
 .toggle .line3{
     transform: rotate(45deg) translate(-5px, -6px);
 }
+
 img{
-    ;
     position: absolute;
     top: -5%;
     width: 100%;
+}
+
+.main-desc {
+    padding-top: 42%;
+    text-align: center;
+}
+
+.main-desc h4 {
+    font-family: 'PT Mono', monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 40px;
+
+    color: #434343;
+}
+.main-desc p {
+    width: 50%;
+    margin-left: 25%;
+    padding-top: 15px;
+    font-family: 'Asap', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 35px;
+
+    letter-spacing: 0.02em;
+
+    color: #797979;
+}
+.second-content-part h4{
+
+}
+
+.second-content-part img{
+    width: 500px;
 }
